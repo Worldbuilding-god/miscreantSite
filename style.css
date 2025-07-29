@@ -1,0 +1,76 @@
+/*Colors
+lblue rgb(135, 155, 255)
+blue rgb(72, 72, 162)
+lavender rgb(181, 181, 255)
+black
+*/
+
+body{
+    background-color: rgb(135, 155, 255);
+}
+
+nav{
+    background-color: rgb(181, 181, 255);
+    position: sticky;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+
+    h2{
+        filter: drop-shadow(-5px 5px 1px rgb(135, 155, 255));
+    }
+}
+
+#holder{
+    background-color: rgb(181, 181, 255);
+    border-radius: 20px;
+}
+
+.center{
+    align-items: center;
+}
+
+main{
+    padding: 10px;
+
+    h3{
+        text-align: center;
+    }
+}
+
+a{
+    color: red;
+}
+
+a:hover{
+    color: orange;
+}
+
+a:active{
+    color: yellow;
+}
+
+a:visited{
+    color: greenyellow;
+}
+
+.navlink{
+    color: rgb(72, 72, 162);
+}
+
+.navlink:hover{
+    color: rgb(83, 175, 255);
+}
+
+.navlink:active{
+    color: rgb(0, 255, 242);
+}
+
+.navlink:visited{
+    color: rgb(139, 217, 228);
+}
+
+footer{
+    background-color: rgb(72, 72, 162);
+}
