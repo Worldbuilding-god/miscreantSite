@@ -19,6 +19,13 @@ h2{
         color: black;
         font-size: x-large;
     }
+    a:active{
+        color: black;
+    }
+
+    a:visited{
+        color: black;
+    }
 }
 
 nav{
